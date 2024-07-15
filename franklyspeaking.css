@@ -1,20 +1,20 @@
 @font-face{
-    src:url("font/LoverLoves.ttf");
+    src:url("LoverLoves.ttf");
     font-family: lover-loves;
 }
 
 @font-face{
-    src:url("font/ladybug.ttf");
+    src:url("ladybug.ttf");
     font-family: ladybug;
 }
 
 @font-face{
-    src:url("font/lovelymagnolia.ttf");
+    src:url("lovelymagnolia.ttf");
     font-family: lovelymagnolia;
 }
 
 body {
-    background-image: url(images/hearts.jpeg);
+    background-image: url(hearts.jpeg);
     color: #4C3549;
     padding-top: 30px;
 }
