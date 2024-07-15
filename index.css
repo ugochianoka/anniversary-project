@@ -1,20 +1,20 @@
 @font-face{
-    src:url("font/quickylove.ttf");
+    src:url("quickylove.ttf");
     font-family: quickylove;
 }
 
 @font-face{
-    src:url("font/ladybug.ttf");
+    src:url("ladybug.ttf");
     font-family: ladybug;
 }
 
 @font-face{
-    src:url("font/Lovelove.ttf");
+    src:url("Lovelove.ttf");
     font-family: lovelove;
 }
 
 @font-face{
-    src:url("font/LoverLoves.ttf");
+    src:url("LoverLoves.ttf");
     font-family: lover-loves;
 }
 
@@ -24,7 +24,7 @@ body {
     letter-spacing: 3px;
     font-size: 30px;
     color: white;
-    background-image: url(images/img1.png);
+    background-image: url(img1.png);
     background-repeat: repeat;
     background-size: 500px;
    text-shadow: 5px 5px black;
