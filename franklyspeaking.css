@@ -1,0 +1,85 @@
+@font-face{
+    src:url("font/LoverLoves.ttf");
+    font-family: lover-loves;
+}
+
+@font-face{
+    src:url("font/ladybug.ttf");
+    font-family: ladybug;
+}
+
+@font-face{
+    src:url("font/lovelymagnolia.ttf");
+    font-family: lovelymagnolia;
+}
+
+body {
+    background-image: url(images/hearts.jpeg);
+    color: #4C3549;
+    padding-top: 30px;
+}
+
+.imgEdit {
+    width: 250px;
+    height : 250px;
+    border-radius: 30%;
+    mask:
+   radial-gradient(at 70% 31%,#000 29%,#0000 30%),
+   radial-gradient(at 30% 31%,#000 29%,#0000 30%),
+   linear-gradient(#000 0 0) bottom/100% 50% no-repeat;
+  clip-path: polygon(-41% 0,50% 91%, 141% 0);
+}
+
+img {
+    width: 50vh;
+    height: auto;
+    border-radius: 20px;
+ }
+#sect-2 {
+    display: flex;
+    justify-content: center;
+}
+
+#cont {
+    align-items: flex-end;
+    width: max-content;
+    height: max-content;
+    padding-top: 130px;
+    font-size: 40px;
+}
+
+#sect-1 {
+    font-size: 80px;
+}
+
+
+.header {
+    font-family: ladybug;
+    font-size: 40px;
+    text-shadow: 1px 1px black;
+    letter-spacing: 3px;
+}
+
+.text {
+    font-family: lovelymagnolia;
+    font-size: 40px;
+    text-shadow: 1px 1px black;
+    letter-spacing: 3px;
+}
+
+input {
+    width: 80vh;
+    height: 5vh;
+    font-family: lovelymagnolia;
+    font-size: 30px;
+}
+
+button {
+    width: 20vh;
+    height: 6vh;
+    font-family: lovelymagnolia;
+    font-size: 30px;
+    font-weight: bolder;
+    border: solid 3px black;
+    border-radius: 3px;
+}
